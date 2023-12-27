@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 130vh;
+}
+
+.container {
+    display: flex;
+    height: 130%;
+}
+
+.sidebar {
+    flex: 1;
+    background-color:bisque;
+    color:black;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content {
+    margin-bottom: 20px; /* Add margin to separate the left content from the header */
+    color :#fff
+}
+
+.sidebar header {
+    text-align: center;
+}
+
+.main-content {
+    flex: 4;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
